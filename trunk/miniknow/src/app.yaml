@@ -1,0 +1,15 @@
+application: miniknow
+version: 1
+runtime: python
+api_version: 1
+
+handlers:
+
+- url: /css
+  static_dir: css
+  
+- url: /snippet
+  static_dir: snippet
+
+- url: /.*
+  script: main.py

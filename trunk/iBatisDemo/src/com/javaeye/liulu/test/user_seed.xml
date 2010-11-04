@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="GBK"?>
+<dataset>
+    <t_user id="1"
+    	name="liulu"
+        date="2007-01-01"/>
+    
+    <t_user id="2"
+    	name="liulu2"
+        date="2007-03-15"/>
+        
+	<t_user id="3"
+    	name="liulu3"
+        date="2007-03-18"/>
+</dataset>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd"
+	default-lazy-init="true">
+
+
+	<!-- 配置你的数据源连接  -->
+	<!-- bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource"
+		destroy-method="close">
+		<property name="driverClassName">
+			<value>org.gjt.mm.mysql.Driver</value>
+		</property>
+		<property name="url">
+			<value>jdbc:mysql://localhost:3306/ibatis_schema</value>
+		</property>
+		<property name="username">
+			<value>root</value>
+		</property>
+		<property name="password">
+			<value>nwcmoses</value>
+		</property>
+	</bean-->
+
+	<bean id="dataSourceAccess" class="org.apache.commons.dbcp.BasicDataSource"
+		destroy-method="close">
+		<property name="driverClassName">
+			<value>sun.jdbc.odbc.JdbcOdbcDriver</value>
+		</property>
+		<property name="url">
+			<value>jdbc:odbc:driver={Microsoft Access Driver (*.mdb)};DBQ=d:\\test.mdb</value>
+		</property>
+		<property name="username">
+			<value></value>
+		</property>
+		<property name="password">
+			<value></value>
+		</property>
+	</bean>
+
+
+	<!-- jdbc连接  -->
+	<bean id="dbtest" class="org.springframework.jdbc.core.JdbcTemplate">
+		<property name="dataSource">
+			<ref local="dataSourceAccess" />
+		</property>
+	</bean>
+
+	<!-- 配置ibatis：集成ibatis配置文件和把数据源与ibatis相关联 -->
+	<bean id="sqlMapClient" class="org.springframework.orm.ibatis.SqlMapClientFactoryBean">
+		<property name="configLocation">
+			<value>/conf/SqlMapConfig.xml</value>
+		</property>
+		<!-- 从指定dataSource中获取数据源 亦可把该定义放到每个自定义Dao中-->
+		<property name="dataSource">
+			<ref bean="dataSourceAccess" />
+		</property>
+	</bean>
+	<!--
+		先是为SqlMapClientFactory分配数据源，然后建立SqlMapClientTemplate。当我们依照模板获得
+		SqlMapClient实例后，IBATIS对数据库的操作将通过这个被赋予事务管理的数据源，程序员可以通过在代码中获得事务管理类实例来控制事务：
+	-->
+	<bean id="sqlMapClientTemplate" class="org.springframework.orm.ibatis.SqlMapClientTemplate">
+		<property name="sqlMapClient">
+			<ref local="sqlMapClient" />
+		</property>
+	</bean>
+
+	<!-- 配置事务管理  -->
+	<bean id="transactionManager"
+		class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+		<property name="dataSource">
+			<ref local="dataSourceAccess" />
+		</property>
+	</bean>
+
+	<!-- 事务管理拦截器 -->
+	<bean id="transactionInterceptor"
+		class="org.springframework.transaction.interceptor.TransactionInterceptor">
+		<property name="transactionManager">
+			<ref bean="transactionManager" />
+		</property>
+		<property name="transactionAttributes">
+			<props>
+				<prop key="*">PROPAGATION_REQUIRED,readOnly
+				</prop>
+			</props>
+		</property>
+	</bean>
+
+	<bean id="transactionBase"
+		class="org.springframework.transaction.interceptor.TransactionProxyFactoryBean"
+		lazy-init="true" abstract="true">
+		<!-- 配置事务管理器 -->
+		<property name="transactionManager">
+			<ref bean="transactionManager" />
+		</property>
+		<!-- 配置事务属性 -->
+		<property name="transactionAttributes">
+			<props>
+				<prop key="delete*">PROPAGATION_REQUIRED</prop>
+				<prop key="add*">PROPAGATION_REQUIRED</prop>
+				<prop key="update*">PROPAGATION_REQUIRED</prop>
+				<prop key="save*">PROPAGATION_REQUIRED</prop>
+				<prop key="find*">PROPAGATION_REQUIRED,readOnly
+				</prop>
+				<prop key="*">PROPAGATION_REQUIRED</prop>
+			</props>
+		</property>
+	</bean>
+
+	<!-- 自动代理 -->
+	<!-- 可以是Service或DAO层（最好是针对业务层*Service） -->
+	<!--
+		bean id="autoproxy"
+		class="org.springframework.aop.framework.autoproxy.BeanNameAutoProxyCreator">
+
+		<property name="beanNames"> <list> <value>*Service</value> </list>
+		</property> <property name="interceptorNames"> <list>
+		<value>transactionInterceptor</value> </list> </property> </bean
+	-->
+
+	<!-- 公共组件:把用户自定义Bean与基本bean分开，集成进去spring_other.xml文件 -->
+	<import resource="spring_other.xml" />
+
+
+
+</beans>

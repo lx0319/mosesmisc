@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns="http://java.sun.com/xml/ns/javaee"
+xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+    
+    <servlet>
+        <servlet-name>account</servlet-name>
+        <servlet-class>twitterSina.servlet.AccountServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>account</servlet-name>
+        <url-pattern>/account</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>publish</servlet-name>
+        <servlet-class>twitterSina.servlet.PublishServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>publish</servlet-name>
+        <url-pattern>/publish</url-pattern>
+    </servlet-mapping>
+    
+	<welcome-file-list>
+		<welcome-file>main.jsp</welcome-file>
+	</welcome-file-list>
+</web-app>

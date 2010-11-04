@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="GBK"?>
+<!DOCTYPE validators PUBLIC "-//OpenSymphony Group//XWork Validator 1.0.2//EN"
+       "http://www.opensymphony.com/xwork/xwork-validator-1.0.2.dtd">
+
+<validators>
+	<field name="task.name">
+		<field-validator type="requiredstring">
+			<param name="trim">true</param>
+			<message key="task.name.required" />
+		</field-validator>
+	</field>
+	<field name="task.description">
+		<field-validator type="requiredstring">
+			<param name="trim">true</param>
+			<message key="task.description.required" />
+		</field-validator>
+	</field>
+	<field name="task.deadline">
+		<field-validator type="required">
+			<message key="task.deadline.required" />
+		</field-validator>
+	</field>
+</validators>

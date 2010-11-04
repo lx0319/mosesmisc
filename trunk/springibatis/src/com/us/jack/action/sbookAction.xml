@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<package name="sbook" extends="struts-default" namespace="/sbook">
+		<!-- 添加图书信息 -->
+		<action name="addSBook" class="sbookAction" method="addSBook">
+			<result name="success">/addBook.jsp</result>
+			<result name="error">/addBook.jsp</result>
+		</action>
+		<!-- 查看全部图书信息 -->
+		<action name="viewSBook" class="sbookAction" method="viewSBook">
+			<result name="success">/viewBook.jsp</result>
+			<result name="error">/viewBook.jsp</result>
+		</action>
+		<!-- 通过ID查找图书 -->
+		<action name="modifySBook" class="sbookAction" method="modifySBook">
+			<result name="success">/bookMsg.jsp</result>
+			<result name="error">/bookMsg.jsp</result>
+		</action>
+		<!-- 更新图书 -->
+		<action name="updateSBook" class="sbookAction" method="updateSBook">
+			<result name="success" type="redirect-action">viewSBook</result>
+			<result name="error">/bookMsg.jsp</result>
+		</action>
+		<!-- 删除图书 -->
+		<action name="removeSBook" class="sbookAction" method="removeSBook">
+			<result name="success" type="redirect-action">viewSBook</result>
+			<result name="error" type="redirect-action">viewSBook</result>
+		</action>
+	</package>
+</struts>

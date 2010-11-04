@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE sqlMapConfig PUBLIC "-//ibatis.apache.org//DTD SQL Map Config 2.0//EN"
+    "http://ibatis.apache.org/dtd/sql-map-config-2.dtd">
+
+<sqlMapConfig>
+
+	<settings lazyLoadingEnabled="true" useStatementNamespaces="true"
+
+		enhancementEnabled="true" errorTracingEnabled="true" />
+
+	<!-- /定义ibatis相关操作参数，例如延迟加载，命名空间是否生效，是否打开缓存，调试阶段出错信息反馈等等  -->
+
+	<sqlMap resource="net/liuxuan/database/mapxml/User_access.xml" />
+
+	<!-- 包含用户的相关操作xml文件 -->
+
+</sqlMapConfig>

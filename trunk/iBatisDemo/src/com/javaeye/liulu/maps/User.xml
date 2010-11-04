@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sqlMap PUBLIC "-//iBATIS.com//DTD SQL Map 2.0//EN"
+"http://www.ibatis.com/dtd/sql-map-2.dtd">
+
+<sqlMap namespace="User">
+	<typeAlias alias="UserObject" type="com.javaeye.liulu.domain.User" />
+	<resultMap id="userResult" class="UserObject">
+		<result property="id" column="id" jdbcType="NUMBER" />
+		<result property="name" column="name" jdbcType="VARCHAR2" />
+		<result property="date" column="date" jdbcType="DATE" />
+	</resultMap>
+
+	<select id="getByPK" resultMap="userResult" parameterClass="UserObject">
+		<![CDATA[ 
+		select
+		  id,
+		  name, 
+		  date 
+		from t_user 
+		where id = #id# 
+		]]>
+	</select>
+	
+	<select id="getById" resultMap="userResult" parameterClass="java.lang.String">
+		<![CDATA[ 
+		select
+		  id,
+		  name, 
+		  date 
+		from t_user 
+		where id = $String$
+		]]>
+	</select>
+
+	<sql id="Dy_SC">
+		<dynamic prepend="WHERE">
+			<isNotNull prepend="AND" property="id">id like #id#</isNotNull>
+			<isNotNull prepend="AND" property="name">name like #name#</isNotNull>
+		</dynamic>
+	</sql>
+
+	<select id="getUser" resultMap="userResult">
+		<![CDATA[ 
+		select
+		  id,
+		  name, 
+		  date 
+		from t_user 
+		]]>
+		<include refid="Dy_SC" />
+	</select>
+
+	<insert id="insertUser" parameterClass="UserObject">
+		INSERT INTO t_user (name,date) VALUES (#name#,#date#)
+	</insert>
+	
+	<insert id="insertUserTest" parameterClass="UserObject">
+		INSERT INTO t_user (id,name,date) VALUES (#id#,#name#,#date#)
+	</insert>
+
+	<update id="updateUser" parameterClass="UserObject">
+		<![CDATA[ 
+		UPDATE t_user 
+		SET  
+		  name=#name#, 
+		  date=#date# 
+		WHERE id = #id#
+		]]>
+	</update>
+
+	<delete id="deleteUser" parameterClass="java.lang.String">
+		delete from t_user where id=#value#
+	</delete>
+
+	<statement id="getMaxId" resultClass="java.lang.Integer">
+		select Max(id) from t_user
+	</statement>
+
+	<statement id="getMax" resultClass="java.util.HashMap">
+		select Max(id) as id,Max(name) as name,Max(date) as date from t_user
+	</statement>
+
+</sqlMap>

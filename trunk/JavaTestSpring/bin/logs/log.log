@@ -1,0 +1,549 @@
+0 2009-09-18 09:59:14 net.liuxuan.spring.BasicModule INFO -加载Log4J
+203 2009-09-18 09:59:14 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/applicationContext.xml]
+0 2009-09-18 09:59:41 net.liuxuan.spring.BasicModule INFO -加载Log4J
+219 2009-09-18 09:59:41 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/applicationContext.xml]
+0 2009-09-18 10:00:26 net.liuxuan.spring.BasicModule INFO -加载Log4J
+219 2009-09-18 10:00:26 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/applicationContext.xml]
+0 2009-09-18 10:00:55 net.liuxuan.spring.BasicModule INFO -加载Log4J
+219 2009-09-18 10:00:56 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/applicationContext.xml]
+0 2009-09-18 10:05:21 net.liuxuan.spring.BasicModule INFO -加载Log4J
+218 2009-09-18 10:05:21 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/applicationContext.xml]
+0 2009-09-18 10:07:38 net.liuxuan.spring.BasicModule INFO -加载Log4J
+203 2009-09-18 10:07:38 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/applicationContext.xml]
+0 2009-09-18 10:08:03 net.liuxuan.spring.BasicModule INFO -加载Log4J
+219 2009-09-18 10:08:03 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/applicationContext.xml]
+0 2009-09-18 10:08:28 net.liuxuan.spring.BasicModule INFO -加载Log4J
+203 2009-09-18 10:08:28 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/applicationContext.xml]
+0 2009-09-18 10:08:44 net.liuxuan.spring.BasicModule INFO -加载Log4J
+203 2009-09-18 10:08:44 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/applicationContext.xml]
+0 2009-09-18 10:18:12 net.liuxuan.spring.BasicModule INFO -加载Log4J
+219 2009-09-18 10:18:12 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/applicationContext.xml]
+1234 2009-09-18 10:18:13 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+1437 2009-09-18 10:18:13 org.springframework.jdbc.support.SQLErrorCodesFactory INFO -SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase]
+0 2009-09-18 10:47:52 net.liuxuan.spring.BasicModule INFO -加载Log4J
+219 2009-09-18 10:47:52 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/applicationContext.xml]
+0 2009-09-18 11:46:46 net.liuxuan.spring.BasicModule INFO -加载Log4J
+703 2009-09-18 11:46:46 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/applicationContext.xml1]
+0 2009-09-18 11:50:56 net.liuxuan.spring.BasicModule INFO -加载Log4J
+203 2009-09-18 11:50:56 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/applicationContext.xml]
+2218 2009-09-18 11:50:58 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2422 2009-09-18 11:50:59 org.springframework.jdbc.support.SQLErrorCodesFactory INFO -SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase]
+0 2009-09-18 11:51:13 net.liuxuan.spring.BasicModule INFO -加载Log4J
+203 2009-09-18 11:51:13 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/applicationContext.xml]
+0 2009-09-18 11:57:58 net.liuxuan.spring.BasicModule INFO -加载Log4J
+219 2009-09-18 11:57:58 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/applicationContext.xml]
+0 2009-09-18 14:37:14 net.liuxuan.spring.BasicModule INFO -加载Log4J
+0 2009-09-18 14:38:06 net.liuxuan.spring.BasicModule INFO -加载Log4J
+703 2009-09-18 14:38:06 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/applicationContext.xml]
+1360 2009-09-18 14:38:07 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/spring_other.xml]
+0 2009-09-18 15:15:01 net.liuxuan.spring.BasicModule INFO -加载Log4J
+188 2009-09-18 15:15:02 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/applicationContext.xml]
+532 2009-09-18 15:15:02 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/spring_other.xml]
+0 2009-09-18 15:16:29 net.liuxuan.spring.BasicModule INFO -加载Log4J
+219 2009-09-18 15:16:29 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/applicationContext.xml]
+547 2009-09-18 15:16:30 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/spring_other.xml]
+0 2009-09-18 15:17:55 net.liuxuan.spring.BasicModule INFO -加载Log4J
+203 2009-09-18 15:17:55 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/applicationContext.xml]
+516 2009-09-18 15:17:56 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/spring_other.xml]
+0 2009-09-18 15:18:56 net.liuxuan.spring.BasicModule INFO -加载Log4J
+219 2009-09-18 15:18:56 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/applicationContext.xml]
+547 2009-09-18 15:18:56 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/spring_other.xml]
+0 2009-09-18 15:19:13 net.liuxuan.spring.BasicModule INFO -加载Log4J
+203 2009-09-18 15:19:13 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/applicationContext.xml]
+515 2009-09-18 15:19:14 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/spring_other.xml]
+0 2009-09-18 15:19:25 net.liuxuan.spring.BasicModule INFO -加载Log4J
+203 2009-09-18 15:19:26 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/applicationContext.xml]
+532 2009-09-18 15:19:26 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/spring_other.xml]
+0 2009-09-18 15:20:27 net.liuxuan.spring.BasicModule INFO -加载Log4J
+203 2009-09-18 15:20:27 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/applicationContext.xml]
+516 2009-09-18 15:20:27 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/spring_other.xml]
+2219 2009-09-18 15:20:29 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2375 2009-09-18 15:20:29 org.springframework.jdbc.support.SQLErrorCodesFactory INFO -SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase]
+2391 2009-09-18 15:20:29 org.springframework.jdbc.support.SQLErrorCodesFactory WARN -Error while extracting database product name - falling back to empty error codes
+org.springframework.jdbc.support.MetaDataAccessException: Error while extracting DatabaseMetaData; nested exception is org.apache.commons.dbcp.SQLNestedException: Cannot create PoolableConnectionFactory (Incorrect database name 'ibatis_schema
+			')
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:296)
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:320)
+	at org.springframework.jdbc.support.SQLErrorCodesFactory.getErrorCodes(SQLErrorCodesFactory.java:216)
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.setDataSource(SQLErrorCodeSQLExceptionTranslator.java:140)
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.<init>(SQLErrorCodeSQLExceptionTranslator.java:103)
+	at org.springframework.jdbc.support.JdbcAccessor.getExceptionTranslator(JdbcAccessor.java:99)
+	at org.springframework.orm.ibatis.SqlMapClientTemplate.execute(SqlMapClientTemplate.java:212)
+	at org.springframework.orm.ibatis.SqlMapClientTemplate.queryForObject(SqlMapClientTemplate.java:271)
+	at net.liuxuan.database.dao.UserDAOImpl.getUser(UserDAOImpl.java:19)
+	at net.liuxuan.spring.testmain.testtest(testmain.java:22)
+	at net.liuxuan.spring.testmain.main(testmain.java:35)
+Caused by: org.apache.commons.dbcp.SQLNestedException: Cannot create PoolableConnectionFactory (Incorrect database name 'ibatis_schema
+			')
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:855)
+	at org.apache.commons.dbcp.BasicDataSource.getConnection(BasicDataSource.java:540)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:113)
+	at org.springframework.jdbc.datasource.TransactionAwareDataSourceProxy$TransactionAwareInvocationHandler.invoke(TransactionAwareDataSourceProxy.java:210)
+	at $Proxy0.getMetaData(Unknown Source)
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:285)
+	... 10 more
+Caused by: com.mysql.jdbc.exceptions.MySQLSyntaxErrorException: Incorrect database name 'ibatis_schema
+			'
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:936)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2870)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:812)
+	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:3269)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1182)
+	at com.mysql.jdbc.Connection.createNewIO(Connection.java:2670)
+	at com.mysql.jdbc.Connection.<init>(Connection.java:1531)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:266)
+	at org.apache.commons.dbcp.DriverConnectionFactory.createConnection(DriverConnectionFactory.java:37)
+	at org.apache.commons.dbcp.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:290)
+	at org.apache.commons.dbcp.BasicDataSource.validateConnectionFactory(BasicDataSource.java:877)
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:851)
+	... 15 more
+0 2009-09-18 15:21:31 net.liuxuan.spring.BasicModule INFO -加载Log4J
+219 2009-09-18 15:21:31 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/applicationContext.xml]
+547 2009-09-18 15:21:31 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/spring_other.xml]
+1547 2009-09-18 15:21:32 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+1703 2009-09-18 15:21:32 org.springframework.jdbc.support.SQLErrorCodesFactory INFO -SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase]
+1719 2009-09-18 15:21:32 org.springframework.jdbc.support.SQLErrorCodesFactory WARN -Error while extracting database product name - falling back to empty error codes
+org.springframework.jdbc.support.MetaDataAccessException: Error while extracting DatabaseMetaData; nested exception is org.apache.commons.dbcp.SQLNestedException: Cannot create PoolableConnectionFactory (Incorrect database name 'mysql
+			')
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:296)
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:320)
+	at org.springframework.jdbc.support.SQLErrorCodesFactory.getErrorCodes(SQLErrorCodesFactory.java:216)
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.setDataSource(SQLErrorCodeSQLExceptionTranslator.java:140)
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.<init>(SQLErrorCodeSQLExceptionTranslator.java:103)
+	at org.springframework.jdbc.support.JdbcAccessor.getExceptionTranslator(JdbcAccessor.java:99)
+	at org.springframework.orm.ibatis.SqlMapClientTemplate.execute(SqlMapClientTemplate.java:212)
+	at org.springframework.orm.ibatis.SqlMapClientTemplate.queryForObject(SqlMapClientTemplate.java:271)
+	at net.liuxuan.database.dao.UserDAOImpl.getUser(UserDAOImpl.java:19)
+	at net.liuxuan.spring.testmain.testtest(testmain.java:22)
+	at net.liuxuan.spring.testmain.main(testmain.java:35)
+Caused by: org.apache.commons.dbcp.SQLNestedException: Cannot create PoolableConnectionFactory (Incorrect database name 'mysql
+			')
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:855)
+	at org.apache.commons.dbcp.BasicDataSource.getConnection(BasicDataSource.java:540)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:113)
+	at org.springframework.jdbc.datasource.TransactionAwareDataSourceProxy$TransactionAwareInvocationHandler.invoke(TransactionAwareDataSourceProxy.java:210)
+	at $Proxy0.getMetaData(Unknown Source)
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:285)
+	... 10 more
+Caused by: com.mysql.jdbc.exceptions.MySQLSyntaxErrorException: Incorrect database name 'mysql
+			'
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:936)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2870)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:812)
+	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:3269)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1182)
+	at com.mysql.jdbc.Connection.createNewIO(Connection.java:2670)
+	at com.mysql.jdbc.Connection.<init>(Connection.java:1531)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:266)
+	at org.apache.commons.dbcp.DriverConnectionFactory.createConnection(DriverConnectionFactory.java:37)
+	at org.apache.commons.dbcp.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:290)
+	at org.apache.commons.dbcp.BasicDataSource.validateConnectionFactory(BasicDataSource.java:877)
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:851)
+	... 15 more
+0 2009-09-18 15:21:58 net.liuxuan.spring.BasicModule INFO -加载Log4J
+203 2009-09-18 15:21:58 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/applicationContext.xml]
+516 2009-09-18 15:21:58 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/spring_other.xml]
+2563 2009-09-18 15:22:00 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2719 2009-09-18 15:22:01 org.springframework.jdbc.support.SQLErrorCodesFactory INFO -SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase]
+3735 2009-09-18 15:22:02 org.springframework.jdbc.support.SQLErrorCodesFactory WARN -Error while extracting database product name - falling back to empty error codes
+org.springframework.jdbc.support.MetaDataAccessException: Error while extracting DatabaseMetaData; nested exception is org.apache.commons.dbcp.SQLNestedException: Cannot create PoolableConnectionFactory (Communications link failure due to underlying exception: 
+
+** BEGIN NESTED EXCEPTION ** 
+
+java.net.SocketException
+MESSAGE: java.net.ConnectException: Connection refused: connect
+
+STACKTRACE:
+
+java.net.SocketException: java.net.ConnectException: Connection refused: connect
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:156)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:276)
+	at com.mysql.jdbc.Connection.createNewIO(Connection.java:2666)
+	at com.mysql.jdbc.Connection.<init>(Connection.java:1531)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:266)
+	at org.apache.commons.dbcp.DriverConnectionFactory.createConnection(DriverConnectionFactory.java:37)
+	at org.apache.commons.dbcp.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:290)
+	at org.apache.commons.dbcp.BasicDataSource.validateConnectionFactory(BasicDataSource.java:877)
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:851)
+	at org.apache.commons.dbcp.BasicDataSource.getConnection(BasicDataSource.java:540)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:113)
+	at org.springframework.jdbc.datasource.TransactionAwareDataSourceProxy$TransactionAwareInvocationHandler.invoke(TransactionAwareDataSourceProxy.java:210)
+	at $Proxy0.getMetaData(Unknown Source)
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:285)
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:320)
+	at org.springframework.jdbc.support.SQLErrorCodesFactory.getErrorCodes(SQLErrorCodesFactory.java:216)
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.setDataSource(SQLErrorCodeSQLExceptionTranslator.java:140)
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.<init>(SQLErrorCodeSQLExceptionTranslator.java:103)
+	at org.springframework.jdbc.support.JdbcAccessor.getExceptionTranslator(JdbcAccessor.java:99)
+	at org.springframework.orm.ibatis.SqlMapClientTemplate.execute(SqlMapClientTemplate.java:212)
+	at org.springframework.orm.ibatis.SqlMapClientTemplate.queryForObject(SqlMapClientTemplate.java:271)
+	at net.liuxuan.database.dao.UserDAOImpl.getUser(UserDAOImpl.java:19)
+	at net.liuxuan.spring.testmain.testtest(testmain.java:22)
+	at net.liuxuan.spring.testmain.main(testmain.java:35)
+
+
+** END NESTED EXCEPTION **
+
+
+
+Last packet sent to the server was 0 ms ago.)
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:296)
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:320)
+	at org.springframework.jdbc.support.SQLErrorCodesFactory.getErrorCodes(SQLErrorCodesFactory.java:216)
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.setDataSource(SQLErrorCodeSQLExceptionTranslator.java:140)
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.<init>(SQLErrorCodeSQLExceptionTranslator.java:103)
+	at org.springframework.jdbc.support.JdbcAccessor.getExceptionTranslator(JdbcAccessor.java:99)
+	at org.springframework.orm.ibatis.SqlMapClientTemplate.execute(SqlMapClientTemplate.java:212)
+	at org.springframework.orm.ibatis.SqlMapClientTemplate.queryForObject(SqlMapClientTemplate.java:271)
+	at net.liuxuan.database.dao.UserDAOImpl.getUser(UserDAOImpl.java:19)
+	at net.liuxuan.spring.testmain.testtest(testmain.java:22)
+	at net.liuxuan.spring.testmain.main(testmain.java:35)
+Caused by: org.apache.commons.dbcp.SQLNestedException: Cannot create PoolableConnectionFactory (Communications link failure due to underlying exception: 
+
+** BEGIN NESTED EXCEPTION ** 
+
+java.net.SocketException
+MESSAGE: java.net.ConnectException: Connection refused: connect
+
+STACKTRACE:
+
+java.net.SocketException: java.net.ConnectException: Connection refused: connect
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:156)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:276)
+	at com.mysql.jdbc.Connection.createNewIO(Connection.java:2666)
+	at com.mysql.jdbc.Connection.<init>(Connection.java:1531)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:266)
+	at org.apache.commons.dbcp.DriverConnectionFactory.createConnection(DriverConnectionFactory.java:37)
+	at org.apache.commons.dbcp.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:290)
+	at org.apache.commons.dbcp.BasicDataSource.validateConnectionFactory(BasicDataSource.java:877)
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:851)
+	at org.apache.commons.dbcp.BasicDataSource.getConnection(BasicDataSource.java:540)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:113)
+	at org.springframework.jdbc.datasource.TransactionAwareDataSourceProxy$TransactionAwareInvocationHandler.invoke(TransactionAwareDataSourceProxy.java:210)
+	at $Proxy0.getMetaData(Unknown Source)
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:285)
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:320)
+	at org.springframework.jdbc.support.SQLErrorCodesFactory.getErrorCodes(SQLErrorCodesFactory.java:216)
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.setDataSource(SQLErrorCodeSQLExceptionTranslator.java:140)
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.<init>(SQLErrorCodeSQLExceptionTranslator.java:103)
+	at org.springframework.jdbc.support.JdbcAccessor.getExceptionTranslator(JdbcAccessor.java:99)
+	at org.springframework.orm.ibatis.SqlMapClientTemplate.execute(SqlMapClientTemplate.java:212)
+	at org.springframework.orm.ibatis.SqlMapClientTemplate.queryForObject(SqlMapClientTemplate.java:271)
+	at net.liuxuan.database.dao.UserDAOImpl.getUser(UserDAOImpl.java:19)
+	at net.liuxuan.spring.testmain.testtest(testmain.java:22)
+	at net.liuxuan.spring.testmain.main(testmain.java:35)
+
+
+** END NESTED EXCEPTION **
+
+
+
+Last packet sent to the server was 0 ms ago.)
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:855)
+	at org.apache.commons.dbcp.BasicDataSource.getConnection(BasicDataSource.java:540)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:113)
+	at org.springframework.jdbc.datasource.TransactionAwareDataSourceProxy$TransactionAwareInvocationHandler.invoke(TransactionAwareDataSourceProxy.java:210)
+	at $Proxy0.getMetaData(Unknown Source)
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:285)
+	... 10 more
+Caused by: com.mysql.jdbc.CommunicationsException: Communications link failure due to underlying exception: 
+
+** BEGIN NESTED EXCEPTION ** 
+
+java.net.SocketException
+MESSAGE: java.net.ConnectException: Connection refused: connect
+
+STACKTRACE:
+
+java.net.SocketException: java.net.ConnectException: Connection refused: connect
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:156)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:276)
+	at com.mysql.jdbc.Connection.createNewIO(Connection.java:2666)
+	at com.mysql.jdbc.Connection.<init>(Connection.java:1531)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:266)
+	at org.apache.commons.dbcp.DriverConnectionFactory.createConnection(DriverConnectionFactory.java:37)
+	at org.apache.commons.dbcp.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:290)
+	at org.apache.commons.dbcp.BasicDataSource.validateConnectionFactory(BasicDataSource.java:877)
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:851)
+	at org.apache.commons.dbcp.BasicDataSource.getConnection(BasicDataSource.java:540)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:113)
+	at org.springframework.jdbc.datasource.TransactionAwareDataSourceProxy$TransactionAwareInvocationHandler.invoke(TransactionAwareDataSourceProxy.java:210)
+	at $Proxy0.getMetaData(Unknown Source)
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:285)
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:320)
+	at org.springframework.jdbc.support.SQLErrorCodesFactory.getErrorCodes(SQLErrorCodesFactory.java:216)
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.setDataSource(SQLErrorCodeSQLExceptionTranslator.java:140)
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.<init>(SQLErrorCodeSQLExceptionTranslator.java:103)
+	at org.springframework.jdbc.support.JdbcAccessor.getExceptionTranslator(JdbcAccessor.java:99)
+	at org.springframework.orm.ibatis.SqlMapClientTemplate.execute(SqlMapClientTemplate.java:212)
+	at org.springframework.orm.ibatis.SqlMapClientTemplate.queryForObject(SqlMapClientTemplate.java:271)
+	at net.liuxuan.database.dao.UserDAOImpl.getUser(UserDAOImpl.java:19)
+	at net.liuxuan.spring.testmain.testtest(testmain.java:22)
+	at net.liuxuan.spring.testmain.main(testmain.java:35)
+
+
+** END NESTED EXCEPTION **
+
+
+
+Last packet sent to the server was 0 ms ago.
+	at com.mysql.jdbc.Connection.createNewIO(Connection.java:2741)
+	at com.mysql.jdbc.Connection.<init>(Connection.java:1531)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:266)
+	at org.apache.commons.dbcp.DriverConnectionFactory.createConnection(DriverConnectionFactory.java:37)
+	at org.apache.commons.dbcp.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:290)
+	at org.apache.commons.dbcp.BasicDataSource.validateConnectionFactory(BasicDataSource.java:877)
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:851)
+	... 15 more
+0 2009-09-18 15:22:15 net.liuxuan.spring.BasicModule INFO -加载Log4J
+203 2009-09-18 15:22:16 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/applicationContext.xml]
+531 2009-09-18 15:22:16 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/spring_other.xml]
+1656 2009-09-18 15:22:17 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+1828 2009-09-18 15:22:17 org.springframework.jdbc.support.SQLErrorCodesFactory INFO -SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase]
+1844 2009-09-18 15:22:17 org.springframework.jdbc.support.SQLErrorCodesFactory WARN -Error while extracting database product name - falling back to empty error codes
+org.springframework.jdbc.support.MetaDataAccessException: Error while extracting DatabaseMetaData; nested exception is org.apache.commons.dbcp.SQLNestedException: Cannot create PoolableConnectionFactory (Incorrect database name 'ibatis_schema
+			')
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:296)
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:320)
+	at org.springframework.jdbc.support.SQLErrorCodesFactory.getErrorCodes(SQLErrorCodesFactory.java:216)
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.setDataSource(SQLErrorCodeSQLExceptionTranslator.java:140)
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.<init>(SQLErrorCodeSQLExceptionTranslator.java:103)
+	at org.springframework.jdbc.support.JdbcAccessor.getExceptionTranslator(JdbcAccessor.java:99)
+	at org.springframework.orm.ibatis.SqlMapClientTemplate.execute(SqlMapClientTemplate.java:212)
+	at org.springframework.orm.ibatis.SqlMapClientTemplate.queryForObject(SqlMapClientTemplate.java:271)
+	at net.liuxuan.database.dao.UserDAOImpl.getUser(UserDAOImpl.java:19)
+	at net.liuxuan.spring.testmain.testtest(testmain.java:22)
+	at net.liuxuan.spring.testmain.main(testmain.java:35)
+Caused by: org.apache.commons.dbcp.SQLNestedException: Cannot create PoolableConnectionFactory (Incorrect database name 'ibatis_schema
+			')
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:855)
+	at org.apache.commons.dbcp.BasicDataSource.getConnection(BasicDataSource.java:540)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:113)
+	at org.springframework.jdbc.datasource.TransactionAwareDataSourceProxy$TransactionAwareInvocationHandler.invoke(TransactionAwareDataSourceProxy.java:210)
+	at $Proxy0.getMetaData(Unknown Source)
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:285)
+	... 10 more
+Caused by: com.mysql.jdbc.exceptions.MySQLSyntaxErrorException: Incorrect database name 'ibatis_schema
+			'
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:936)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2870)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:812)
+	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:3269)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1182)
+	at com.mysql.jdbc.Connection.createNewIO(Connection.java:2670)
+	at com.mysql.jdbc.Connection.<init>(Connection.java:1531)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:266)
+	at org.apache.commons.dbcp.DriverConnectionFactory.createConnection(DriverConnectionFactory.java:37)
+	at org.apache.commons.dbcp.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:290)
+	at org.apache.commons.dbcp.BasicDataSource.validateConnectionFactory(BasicDataSource.java:877)
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:851)
+	... 15 more
+0 2009-09-18 15:22:38 net.liuxuan.spring.BasicModule INFO -加载Log4J
+187 2009-09-18 15:22:38 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/applicationContext.xml]
+515 2009-09-18 15:22:38 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/spring_other.xml]
+0 2009-09-18 17:18:19 net.liuxuan.spring.BasicModule INFO -加载Log4J
+1578 2009-09-18 17:18:20 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/applicationContext.xml]
+3171 2009-09-18 17:18:22 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/spring_other.xml]
+7281 2009-09-18 17:18:26 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+7343 2009-09-18 17:18:26 org.springframework.jdbc.support.SQLErrorCodesFactory INFO -SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase]
+7437 2009-09-18 17:18:26 org.springframework.jdbc.support.SQLErrorCodesFactory WARN -Error while extracting database product name - falling back to empty error codes
+org.springframework.jdbc.support.MetaDataAccessException: Error while extracting DatabaseMetaData; nested exception is org.apache.commons.dbcp.SQLNestedException: Cannot create PoolableConnectionFactory (Incorrect database name 'ibatis_schema
+			')
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:296)
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:320)
+	at org.springframework.jdbc.support.SQLErrorCodesFactory.getErrorCodes(SQLErrorCodesFactory.java:216)
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.setDataSource(SQLErrorCodeSQLExceptionTranslator.java:140)
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.<init>(SQLErrorCodeSQLExceptionTranslator.java:103)
+	at org.springframework.jdbc.support.JdbcAccessor.getExceptionTranslator(JdbcAccessor.java:99)
+	at org.springframework.orm.ibatis.SqlMapClientTemplate.execute(SqlMapClientTemplate.java:212)
+	at org.springframework.orm.ibatis.SqlMapClientTemplate.queryForObject(SqlMapClientTemplate.java:271)
+	at net.liuxuan.database.dao.UserDAOImpl.getUser(UserDAOImpl.java:19)
+	at net.liuxuan.spring.testmain.testtest(testmain.java:22)
+	at net.liuxuan.spring.testmain.main(testmain.java:35)
+Caused by: org.apache.commons.dbcp.SQLNestedException: Cannot create PoolableConnectionFactory (Incorrect database name 'ibatis_schema
+			')
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:855)
+	at org.apache.commons.dbcp.BasicDataSource.getConnection(BasicDataSource.java:540)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:113)
+	at org.springframework.jdbc.datasource.TransactionAwareDataSourceProxy$TransactionAwareInvocationHandler.invoke(TransactionAwareDataSourceProxy.java:210)
+	at $Proxy0.getMetaData(Unknown Source)
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:285)
+	... 10 more
+Caused by: com.mysql.jdbc.exceptions.MySQLSyntaxErrorException: Incorrect database name 'ibatis_schema
+			'
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:936)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2870)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:812)
+	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:3269)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1182)
+	at com.mysql.jdbc.Connection.createNewIO(Connection.java:2670)
+	at com.mysql.jdbc.Connection.<init>(Connection.java:1531)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:266)
+	at org.apache.commons.dbcp.DriverConnectionFactory.createConnection(DriverConnectionFactory.java:37)
+	at org.apache.commons.dbcp.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:290)
+	at org.apache.commons.dbcp.BasicDataSource.validateConnectionFactory(BasicDataSource.java:877)
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:851)
+	... 15 more
+0 2009-09-18 17:18:40 net.liuxuan.spring.BasicModule INFO -加载Log4J
+187 2009-09-18 17:18:40 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/applicationContext.xml]
+515 2009-09-18 17:18:41 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/spring_other.xml]
+0 2009-09-18 17:26:00 net.liuxuan.spring.BasicModule INFO -加载Log4J
+187 2009-09-18 17:26:00 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/applicationContext.xml]
+500 2009-09-18 17:26:00 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/spring_other.xml]
+0 2009-09-18 17:26:42 net.liuxuan.spring.BasicModule INFO -加载Log4J
+171 2009-09-18 17:26:43 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/applicationContext.xml]
+500 2009-09-18 17:26:43 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/spring_other.xml]
+0 2009-09-18 17:26:57 net.liuxuan.spring.BasicModule INFO -加载Log4J
+203 2009-09-18 17:26:57 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/applicationContext.xml]
+516 2009-09-18 17:26:57 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/spring_other.xml]
+0 2009-09-18 17:29:29 net.liuxuan.spring.BasicModule INFO -加载Log4J
+203 2009-09-18 17:29:29 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/applicationContext.xml]
+531 2009-09-18 17:29:29 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/spring_other.xml]
+0 2009-09-18 17:30:25 net.liuxuan.spring.BasicModule INFO -加载Log4J
+188 2009-09-18 17:30:26 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/applicationContext.xml]
+516 2009-09-18 17:30:26 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/spring_other.xml]
+0 2009-09-18 17:31:43 net.liuxuan.spring.BasicModule INFO -加载Log4J
+187 2009-09-18 17:31:43 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/applicationContext.xml]
+515 2009-09-18 17:31:43 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/spring_other.xml]
+0 2009-09-18 17:32:05 net.liuxuan.spring.BasicModule INFO -加载Log4J
+172 2009-09-18 17:32:05 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/applicationContext.xml]
+610 2009-09-18 17:32:06 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/spring_other.xml]
+0 2009-09-18 17:32:14 net.liuxuan.spring.BasicModule INFO -加载Log4J
+203 2009-09-18 17:32:14 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/applicationContext.xml]
+516 2009-09-18 17:32:14 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/spring_other.xml]
+0 2009-09-18 17:51:09 net.liuxuan.spring.BasicModule INFO -加载Log4J
+188 2009-09-18 17:51:09 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/applicationContext.xml]
+516 2009-09-18 17:51:09 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/spring_other.xml]
+0 2009-09-18 17:52:46 net.liuxuan.spring.BasicModule INFO -加载Log4J
+188 2009-09-18 17:52:46 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/applicationContext.xml]
+516 2009-09-18 17:52:46 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/spring_other.xml]
+0 2009-09-18 17:53:12 net.liuxuan.spring.BasicModule INFO -加载Log4J
+203 2009-09-18 17:53:12 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/applicationContext.xml]
+531 2009-09-18 17:53:13 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/spring_other.xml]
+0 2009-09-18 17:55:30 net.liuxuan.spring.BasicModule INFO -加载Log4J
+188 2009-09-18 17:55:30 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/applicationContext.xml]
+516 2009-09-18 17:55:30 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/spring_other.xml]
+0 2009-09-18 17:58:51 net.liuxuan.spring.BasicModule INFO -加载Log4J
+187 2009-09-18 17:58:51 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/applicationContext.xml]
+515 2009-09-18 17:58:52 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/spring_other.xml]
+640 2009-09-18 17:58:52 net.liuxuan.spring.BasicModule ERROR -Spring配置文件加载失败！Configuration problem: Failed to import bean definitions from relative location [spring_other.xml]
+Offending resource: class path resource [conf/applicationContext.xml]; nested exception is org.springframework.beans.factory.xml.XmlBeanDefinitionStoreException: Line 26 in XML document from class path resource [conf/spring_other.xml] is invalid; nested exception is org.xml.sax.SAXParseException: cvc-id.1: There is no ID/IDREF binding for IDREF 'transactionManager'.
+656 2009-09-18 17:58:52 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/applicationContext.xml]
+703 2009-09-18 17:58:52 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/spring_other.xml]
+812 2009-09-18 17:58:52 net.liuxuan.spring.BasicModule ERROR -Spring配置文件加载失败！Configuration problem: Failed to import bean definitions from relative location [spring_other.xml]
+Offending resource: class path resource [conf/applicationContext.xml]; nested exception is org.springframework.beans.factory.xml.XmlBeanDefinitionStoreException: Line 26 in XML document from class path resource [conf/spring_other.xml] is invalid; nested exception is org.xml.sax.SAXParseException: cvc-id.1: There is no ID/IDREF binding for IDREF 'transactionManager'.
+0 2009-09-18 17:59:27 net.liuxuan.spring.BasicModule INFO -加载Log4J
+188 2009-09-18 17:59:27 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/applicationContext.xml]
+594 2009-09-18 17:59:27 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/spring_other.xml]
+0 2009-09-18 18:00:09 net.liuxuan.spring.BasicModule INFO -加载Log4J
+188 2009-09-18 18:00:10 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/applicationContext.xml]
+516 2009-09-18 18:00:10 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/spring_other.xml]
+0 2009-09-18 18:00:45 net.liuxuan.spring.BasicModule INFO -加载Log4J
+187 2009-09-18 18:00:45 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/applicationContext.xml]
+515 2009-09-18 18:00:45 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/spring_other.xml]
+0 2009-09-18 18:01:46 net.liuxuan.spring.BasicModule INFO -加载Log4J
+188 2009-09-18 18:01:46 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/applicationContext.xml]
+516 2009-09-18 18:01:47 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/spring_other.xml]
+0 2009-09-18 18:02:20 net.liuxuan.spring.BasicModule INFO -加载Log4J
+188 2009-09-18 18:02:20 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/applicationContext.xml]
+500 2009-09-18 18:02:20 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/spring_other.xml]
+0 2009-09-18 18:03:00 net.liuxuan.spring.BasicModule INFO -加载Log4J
+187 2009-09-18 18:03:00 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/applicationContext.xml]
+515 2009-09-18 18:03:01 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/spring_other.xml]
+0 2009-09-18 18:03:39 net.liuxuan.spring.BasicModule INFO -加载Log4J
+203 2009-09-18 18:03:39 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/applicationContext.xml]
+531 2009-09-18 18:03:39 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/spring_other.xml]
+0 2009-09-18 18:05:00 net.liuxuan.spring.BasicModule INFO -加载Log4J
+204 2009-09-18 18:05:00 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/applicationContext.xml]
+516 2009-09-18 18:05:01 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/spring_other.xml]
+0 2009-09-18 18:05:35 net.liuxuan.spring.BasicModule INFO -加载Log4J
+296 2009-09-18 18:05:35 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/applicationContext.xml]
+593 2009-09-18 18:05:36 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/spring_other.xml]
+0 2009-09-18 18:05:47 net.liuxuan.spring.BasicModule INFO -加载Log4J
+187 2009-09-18 18:05:47 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/applicationContext.xml]
+500 2009-09-18 18:05:47 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/spring_other.xml]
+0 2009-09-18 18:08:08 net.liuxuan.spring.BasicModule INFO -加载Log4J
+188 2009-09-18 18:08:08 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/applicationContext.xml]
+579 2009-09-18 18:08:09 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/spring_other.xml]
+0 2009-09-18 18:09:36 net.liuxuan.spring.BasicModule INFO -加载Log4J
+297 2009-09-18 18:09:36 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/applicationContext.xml]
+657 2009-09-18 18:09:37 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/spring_other.xml]
+0 2009-09-18 18:10:58 net.liuxuan.spring.BasicModule INFO -加载Log4J
+187 2009-09-18 18:10:58 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/applicationContext.xml]
+515 2009-09-18 18:10:58 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/spring_other.xml]
+0 2009-09-18 18:11:47 net.liuxuan.spring.BasicModule INFO -加载Log4J
+188 2009-09-18 18:11:47 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/applicationContext.xml]
+516 2009-09-18 18:11:47 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/spring_other.xml]
+0 2009-09-18 18:11:57 net.liuxuan.spring.BasicModule INFO -加载Log4J
+188 2009-09-18 18:11:58 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/applicationContext.xml]
+516 2009-09-18 18:11:58 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/spring_other.xml]
+0 2009-09-18 18:12:09 net.liuxuan.spring.BasicModule INFO -加载Log4J
+188 2009-09-18 18:12:10 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/applicationContext.xml]
+516 2009-09-18 18:12:10 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/spring_other.xml]
+0 2009-09-18 18:15:59 net.liuxuan.spring.BasicModule INFO -加载Log4J
+187 2009-09-18 18:15:59 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/applicationContext.xml]
+516 2009-09-18 18:15:59 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/spring_other.xml]
+0 2009-09-18 18:17:05 net.liuxuan.spring.BasicModule INFO -加载Log4J
+187 2009-09-18 18:17:05 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/applicationContext.xml]
+516 2009-09-18 18:17:05 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/spring_other.xml]
+0 2009-09-18 18:17:12 net.liuxuan.spring.BasicModule INFO -加载Log4J
+188 2009-09-18 18:17:12 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/applicationContext.xml]
+516 2009-09-18 18:17:12 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/spring_other.xml]
+0 2009-09-18 18:20:52 net.liuxuan.spring.BasicModule INFO -加载Log4J
+219 2009-09-18 18:20:52 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/applicationContext.xml]
+578 2009-09-18 18:20:52 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/spring_other.xml]
+0 2009-09-18 18:23:47 net.liuxuan.spring.BasicModule INFO -加载Log4J
+203 2009-09-18 18:23:47 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/applicationContext.xml]
+531 2009-09-18 18:23:47 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/spring_other.xml]
+0 2009-09-18 18:23:54 net.liuxuan.spring.BasicModule INFO -加载Log4J
+204 2009-09-18 18:23:54 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/applicationContext.xml]
+516 2009-09-18 18:23:54 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/spring_other.xml]
+0 2009-09-18 18:24:22 net.liuxuan.spring.BasicModule INFO -加载Log4J
+187 2009-09-18 18:24:23 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/applicationContext.xml]
+515 2009-09-18 18:24:23 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/spring_other.xml]
+0 2009-09-18 18:24:30 net.liuxuan.spring.BasicModule INFO -加载Log4J
+172 2009-09-18 18:24:30 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/applicationContext.xml]
+484 2009-09-18 18:24:30 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/spring_other.xml]
+0 2009-09-18 18:25:34 net.liuxuan.spring.BasicModule INFO -加载Log4J
+187 2009-09-18 18:25:34 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/applicationContext.xml]
+515 2009-09-18 18:25:34 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/spring_other.xml]
+0 2009-09-18 18:25:42 net.liuxuan.spring.BasicModule INFO -加载Log4J
+172 2009-09-18 18:25:42 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/applicationContext.xml]
+485 2009-09-18 18:25:43 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/spring_other.xml]
+0 2009-09-18 18:25:50 net.liuxuan.spring.BasicModule INFO -加载Log4J
+203 2009-09-18 18:25:50 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/applicationContext.xml]
+531 2009-09-18 18:25:50 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/spring_other.xml]
+0 2009-09-18 18:25:58 net.liuxuan.spring.BasicModule INFO -加载Log4J
+187 2009-09-18 18:25:58 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/applicationContext.xml]
+515 2009-09-18 18:25:58 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/spring_other.xml]
+0 2009-09-21 08:36:59 net.liuxuan.spring.BasicModule INFO -加载Log4J
+844 2009-09-21 08:37:00 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/applicationContext.xml]
+1469 2009-09-21 08:37:00 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/spring_other.xml]
+0 2009-09-21 08:39:13 net.liuxuan.spring.BasicModule INFO -加载Log4J
+204 2009-09-21 08:39:13 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/applicationContext.xml]
+579 2009-09-21 08:39:14 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/spring_other.xml]
+0 2009-09-21 08:39:20 net.liuxuan.spring.BasicModule INFO -加载Log4J
+203 2009-09-21 08:39:20 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/applicationContext.xml]
+531 2009-09-21 08:39:20 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/spring_other.xml]
+0 2009-09-21 08:39:37 net.liuxuan.spring.BasicModule INFO -加载Log4J
+187 2009-09-21 08:39:37 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/applicationContext.xml]
+531 2009-09-21 08:39:38 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/spring_other.xml]
+1859 2009-09-21 08:39:39 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2000 2009-09-21 08:39:39 org.springframework.jdbc.support.SQLErrorCodesFactory INFO -SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase]
+0 2009-09-21 08:41:23 net.liuxuan.spring.BasicModule INFO -加载Log4J
+187 2009-09-21 08:41:23 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/applicationContext.xml]
+531 2009-09-21 08:41:23 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/spring_other.xml]
+0 2009-09-21 08:44:53 net.liuxuan.spring.BasicModule INFO -加载Log4J
+203 2009-09-21 08:44:53 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/applicationContext.xml]
+531 2009-09-21 08:44:54 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/spring_other.xml]
+0 2009-09-21 08:50:47 net.liuxuan.spring.BasicModule INFO -加载Log4J
+203 2009-09-21 08:50:47 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/applicationContext.xml]
+531 2009-09-21 08:50:47 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/spring_other.xml]
+1813 2009-09-21 08:50:48 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+1906 2009-09-21 08:50:48 org.springframework.jdbc.support.SQLErrorCodesFactory INFO -SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase]
+0 2009-09-21 08:53:55 net.liuxuan.spring.BasicModule INFO -加载Log4J
+188 2009-09-21 08:53:55 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/applicationContext.xml]
+516 2009-09-21 08:53:55 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/spring_other.xml]
+0 2009-09-21 08:54:01 net.liuxuan.spring.BasicModule INFO -加载Log4J
+203 2009-09-21 08:54:01 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/applicationContext.xml]
+531 2009-09-21 08:54:02 org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO -Loading XML bean definitions from class path resource [conf/spring_other.xml]
