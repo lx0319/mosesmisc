@@ -1,0 +1,48 @@
+.input_table {
+	background-color: #FFF;
+	border-top-color: #00F;
+	border-right-color: #00F;
+	border-bottom-color: #00F;
+	border-left-color: #00F;
+}
+#div_input {
+	background-color: #EEE;
+	width: 600px;
+	clear: both;
+	padding: 12px;
+	margin: 4px;
+}
+.showContent{
+	border: 1px dotted #88F;
+	width: 630px;
+	margin: 2px;
+	clear: both;
+}
+.showContent .info{
+	height: 12px;
+	padding: 2px;
+	margin: 5px;
+	clear: both;
+	border: 0px;
+	float: left;
+}
+
+.showContent .oper{
+	height: 12px;
+	padding: 2px;
+	margin: 5px;
+	clear: both;
+	border: 0px;
+	display: block;
+	float: right;
+}
+
+.showContent .Content{
+	background-color: #EFF;
+	height: 80px;
+	width: 600px;
+	padding: 8px;
+	margin: 5px;
+	clear: both;
+	border: 1px dashed #000;
+}

@@ -1,0 +1,50 @@
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="/css/main.css" />
+	</head>
+
+	<body>
+		<table id="showtable" width="80%" >
+			<thead>
+				<tr>
+					<th>author</th>
+					<th>DateTime</th>
+					<th>Message</th>
+				</tr>
+
+			</thead>
+			<tbody>
+				{% for greeting in greetings %}
+				<tr>
+					<td width="30%">
+						{% if greeting.author %}
+						<b>{{ greeting.author.nickname }}</b>
+						wrote: {% else %} An anonymous person: 
+						{% endif %}
+					</td>
+					<td>
+						{{ greeting.date }}
+					</td>
+					<td>
+						<blockquote>
+							{{ greeting.content|escape }}
+						</blockquote>
+					</td>
+				</tr>
+				 {% endfor %}
+
+			</tbody>
+		</table>
+		<form action="/sign" method="post">
+			<div>
+				<textarea name="content" rows="3" cols="60"></textarea>
+			</div>
+			<div>
+				<input type="submit" value="Sign Guestbook">
+			</div>
+		</form>
+
+		<a href="{{ url }}">{{ url_linktext }}</a>
+
+	</body>
+</html>

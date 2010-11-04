@@ -1,0 +1,164 @@
+2009-10-09 09:06:50.656 [NioProcessor-1] INFO  o.a.m.filter.logging.LoggingFilter - CREATED
+2009-10-09 09:06:50.687 [NioProcessor-1] INFO  o.a.m.filter.logging.LoggingFilter - OPENED
+2009-10-09 09:06:50.703 [NioProcessor-1] INFO  o.a.m.filter.logging.LoggingFilter - SENT: 1:(E6 88 91 E8 83 A1 E6 B1 89 E4 B8 89 E6 9D A5 E4 BA 86 )
+2009-10-09 09:06:50.718 [AWT-EventQueue-0] WARN  o.a.m.filter.logging.LoggingFilter - EXCEPTION :
+org.apache.mina.filter.codec.ProtocolEncoderException: org.apache.mina.core.session.UnknownMessageTypeException: No message encoder found for message: LOGINED 
+	at org.apache.mina.filter.codec.ProtocolCodecFilter.filterWrite(ProtocolCodecFilter.java:313) [mina-core-2.0.0-M6.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callPreviousFilterWrite(DefaultIoFilterChain.java:505) [mina-core-2.0.0-M6.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1400(DefaultIoFilterChain.java:47) [mina-core-2.0.0-M6.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.filterWrite(DefaultIoFilterChain.java:813) [mina-core-2.0.0-M6.jar:na]
+	at org.apache.mina.core.filterchain.IoFilterAdapter.filterWrite(IoFilterAdapter.java:135) [mina-core-2.0.0-M6.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callPreviousFilterWrite(DefaultIoFilterChain.java:505) [mina-core-2.0.0-M6.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1400(DefaultIoFilterChain.java:47) [mina-core-2.0.0-M6.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.filterWrite(DefaultIoFilterChain.java:813) [mina-core-2.0.0-M6.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.filterWrite(DefaultIoFilterChain.java:739) [mina-core-2.0.0-M6.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callPreviousFilterWrite(DefaultIoFilterChain.java:505) [mina-core-2.0.0-M6.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.fireFilterWrite(DefaultIoFilterChain.java:497) [mina-core-2.0.0-M6.jar:na]
+	at org.apache.mina.core.session.AbstractIoSession.write(AbstractIoSession.java:427) [mina-core-2.0.0-M6.jar:na]
+	at org.apache.mina.core.session.AbstractIoSession.write(AbstractIoSession.java:368) [mina-core-2.0.0-M6.jar:na]
+	at net.liuxuan.OSMC.client.SwingClientSupport.login(SwingClientSupport.java:67) [classes/:na]
+	at net.liuxuan.OSMC.client.SwingClientSupport.connect(SwingClientSupport.java:57) [classes/:na]
+	at net.liuxuan.OSMC.client.JMDIApplication.LogInButtonActionPerformed(JMDIApplication.java:328) [classes/:na]
+	at net.liuxuan.OSMC.client.JMDIApplication.access$000(JMDIApplication.java:26) [classes/:na]
+	at net.liuxuan.OSMC.client.JMDIApplication$1.actionPerformed(JMDIApplication.java:184) [classes/:na]
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1995) [na:1.6.0_13]
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2318) [na:1.6.0_13]
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:387) [na:1.6.0_13]
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:242) [na:1.6.0_13]
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:236) [na:1.6.0_13]
+	at java.awt.Component.processMouseEvent(Component.java:6216) [na:1.6.0_13]
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3265) [na:1.6.0_13]
+	at java.awt.Component.processEvent(Component.java:5981) [na:1.6.0_13]
+	at java.awt.Container.processEvent(Container.java:2041) [na:1.6.0_13]
+	at java.awt.Component.dispatchEventImpl(Component.java:4583) [na:1.6.0_13]
+	at java.awt.Container.dispatchEventImpl(Container.java:2099) [na:1.6.0_13]
+	at java.awt.Component.dispatchEvent(Component.java:4413) [na:1.6.0_13]
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4556) [na:1.6.0_13]
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4220) [na:1.6.0_13]
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4150) [na:1.6.0_13]
+	at java.awt.Container.dispatchEventImpl(Container.java:2085) [na:1.6.0_13]
+	at java.awt.Window.dispatchEventImpl(Window.java:2475) [na:1.6.0_13]
+	at java.awt.Component.dispatchEvent(Component.java:4413) [na:1.6.0_13]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:599) [na:1.6.0_13]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:269) [na:1.6.0_13]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:184) [na:1.6.0_13]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:174) [na:1.6.0_13]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:169) [na:1.6.0_13]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:161) [na:1.6.0_13]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:122) [na:1.6.0_13]
+Caused by: org.apache.mina.core.session.UnknownMessageTypeException: No message encoder found for message: LOGINED 
+	at org.apache.mina.filter.codec.demux.DemuxingProtocolEncoder.encode(DemuxingProtocolEncoder.java:136) [mina-core-2.0.0-M6.jar:na]
+	at org.apache.mina.filter.codec.ProtocolCodecFilter.filterWrite(ProtocolCodecFilter.java:298) [mina-core-2.0.0-M6.jar:na]
+	... 42 common frames omitted
+2009-10-09 09:06:50.750 [NioProcessor-1] INFO  o.a.m.filter.logging.LoggingFilter - CLOSED
+2009-10-09 09:08:55.437 [NioProcessor-1] INFO  o.a.m.filter.logging.LoggingFilter - CREATED
+2009-10-09 09:08:55.468 [NioProcessor-1] INFO  o.a.m.filter.logging.LoggingFilter - OPENED
+2009-10-09 09:08:55.484 [NioProcessor-1] INFO  o.a.m.filter.logging.LoggingFilter - SENT: 1:(E6 88 91 E8 83 A1 E6 B1 89 E4 B8 89 E6 9D A5 E4 BA 86 )
+2009-10-09 09:08:55.500 [NioProcessor-1] INFO  o.a.m.filter.logging.LoggingFilter - RECEIVED: 1:(E6 AC A2 E8 BF 8E E7 99 BB E9 99 86 EF BC 81 )
+2009-10-09 09:18:07.703 [NioProcessor-1] INFO  o.a.m.filter.logging.LoggingFilter - CREATED
+2009-10-09 09:18:07.718 [NioProcessor-1] INFO  o.a.m.filter.logging.LoggingFilter - OPENED
+2009-10-09 09:18:07.734 [NioProcessor-1] INFO  o.a.m.filter.logging.LoggingFilter - RECEIVED: 1:(E6 AC A2 E8 BF 8E E7 99 BB E9 99 86 EF BC 81 )
+2009-10-09 09:18:07.750 [NioProcessor-1] INFO  o.a.m.filter.logging.LoggingFilter - SENT: 1:(E6 88 91 E8 83 A1 E6 B1 89 E4 B8 89 E6 9D A5 E4 BA 86 )
+2009-10-09 09:27:26.812 [NioProcessor-1] INFO  o.a.m.filter.logging.LoggingFilter - CREATED
+2009-10-09 09:27:26.875 [NioProcessor-1] INFO  o.a.m.filter.logging.LoggingFilter - OPENED
+2009-10-09 09:27:26.890 [NioProcessor-1] INFO  o.a.m.filter.logging.LoggingFilter - SENT: 1:(E6 88 91 E8 83 A1 E6 B1 89 E4 B8 89 E6 9D A5 E4 BA 86 )
+2009-10-09 09:27:26.984 [NioProcessor-1] INFO  o.a.m.filter.logging.LoggingFilter - RECEIVED: 1:(E6 AC A2 E8 BF 8E E7 99 BB E9 99 86 EF BC 81 )
+2009-10-09 09:27:27.750 [NioProcessor-1] INFO  o.a.m.filter.logging.LoggingFilter - SENT: 2:(E8 BD BB E8 BD BB E7 9A 84 E4 BF BA E8 B5 B0 E4 BA 86 EF BC 8C E4 B8 8D E7 95 99 E4 B8 8B E4 B8 80 E5 88 86 E9 92 B1 )
+2009-10-09 09:27:27.765 [NioProcessor-1] INFO  o.a.m.filter.logging.LoggingFilter - RECEIVED: 2:(E6 AC A2 E8 BF 8E E5 86 8D E6 9D A5 EF BC 81 )
+2009-10-09 09:27:27.765 [NioProcessor-1] INFO  o.a.m.filter.logging.LoggingFilter - SENT: 3:(E5 86 8D E8 AF 95 E4 B8 80 E6 AC A1 EF BC 81 )
+2009-10-09 09:27:27.781 [NioProcessor-1] INFO  o.a.m.filter.logging.LoggingFilter - RECEIVED: 3:(E5 86 8D E8 AF 95 E4 B8 80 E6 AC A1 EF BC 81 )
+2009-10-09 09:27:27.781 [NioProcessor-1] INFO  o.a.m.filter.logging.LoggingFilter - SENT: 4:(E5 86 8D E8 AF 95 E4 B8 80 E6 AC A1 EF BC 81 )
+2009-10-09 09:27:27.781 [NioProcessor-1] INFO  o.a.m.filter.logging.LoggingFilter - RECEIVED: 4:(E5 86 8D E8 AF 95 E4 B8 80 E6 AC A1 EF BC 81 )
+2009-10-09 09:27:27.781 [NioProcessor-1] INFO  o.a.m.filter.logging.LoggingFilter - SENT: 5:(E5 86 8D E8 AF 95 E4 B8 80 E6 AC A1 EF BC 81 )
+2009-10-09 09:27:27.781 [NioProcessor-1] INFO  o.a.m.filter.logging.LoggingFilter - RECEIVED: 5:(E5 86 8D E8 AF 95 E4 B8 80 E6 AC A1 EF BC 81 )
+2009-10-09 09:27:27.796 [NioProcessor-1] INFO  o.a.m.filter.logging.LoggingFilter - RECEIVED: 6:(E5 86 8D E8 AF 95 E4 B8 80 E6 AC A1 EF BC 81 )
+2009-10-09 09:27:27.796 [NioProcessor-1] INFO  o.a.m.filter.logging.LoggingFilter - SENT: 6:(E5 86 8D E8 AF 95 E4 B8 80 E6 AC A1 EF BC 81 )
+2009-10-09 09:27:27.796 [NioProcessor-1] INFO  o.a.m.filter.logging.LoggingFilter - SENT: 7:(E5 86 8D E8 AF 95 E4 B8 80 E6 AC A1 EF BC 81 )
+2009-10-09 09:27:27.812 [NioProcessor-1] INFO  o.a.m.filter.logging.LoggingFilter - RECEIVED: 7:(E5 86 8D E8 AF 95 E4 B8 80 E6 AC A1 EF BC 81 )
+2009-10-09 09:27:27.812 [NioProcessor-1] INFO  o.a.m.filter.logging.LoggingFilter - SENT: 8:(E5 86 8D E8 AF 95 E4 B8 80 E6 AC A1 EF BC 81 )
+2009-10-09 09:27:27.812 [NioProcessor-1] INFO  o.a.m.filter.logging.LoggingFilter - RECEIVED: 8:(E5 86 8D E8 AF 95 E4 B8 80 E6 AC A1 EF BC 81 )
+2009-10-09 09:27:27.812 [NioProcessor-1] INFO  o.a.m.filter.logging.LoggingFilter - SENT: 9:(E5 86 8D E8 AF 95 E4 B8 80 E6 AC A1 EF BC 81 )
+2009-10-09 09:27:27.812 [NioProcessor-1] INFO  o.a.m.filter.logging.LoggingFilter - RECEIVED: 9:(E5 86 8D E8 AF 95 E4 B8 80 E6 AC A1 EF BC 81 )
+2009-10-09 09:27:27.812 [NioProcessor-1] INFO  o.a.m.filter.logging.LoggingFilter - SENT: 10:(E5 86 8D E8 AF 95 E4 B8 80 E6 AC A1 EF BC 81 )
+2009-10-09 09:27:27.828 [NioProcessor-1] INFO  o.a.m.filter.logging.LoggingFilter - RECEIVED: 10:(E5 86 8D E8 AF 95 E4 B8 80 E6 AC A1 EF BC 81 )
+2009-10-09 09:27:32.765 [NioProcessor-1] INFO  o.a.m.filter.logging.LoggingFilter - CLOSED
+2009-10-09 09:28:12.000 [NioProcessor-1] INFO  o.a.m.filter.logging.LoggingFilter - CREATED
+2009-10-09 09:28:12.015 [NioProcessor-1] INFO  o.a.m.filter.logging.LoggingFilter - OPENED
+2009-10-09 09:28:12.046 [NioProcessor-1] INFO  o.a.m.filter.logging.LoggingFilter - RECEIVED: 1:(E6 AC A2 E8 BF 8E E7 99 BB E9 99 86 EF BC 81 )
+2009-10-09 09:28:12.046 [NioProcessor-1] INFO  o.a.m.filter.logging.LoggingFilter - SENT: 1:(E6 88 91 E8 83 A1 E6 B1 89 E4 B8 89 E6 9D A5 E4 BA 86 )
+2009-10-09 09:36:22.187 [NioProcessor-1] INFO  o.a.m.filter.logging.LoggingFilter - CREATED
+2009-10-09 09:36:22.218 [NioProcessor-1] INFO  o.a.m.filter.logging.LoggingFilter - OPENED
+2009-10-09 09:36:22.250 [NioProcessor-1] INFO  o.a.m.filter.logging.LoggingFilter - RECEIVED: 1:(E6 AC A2 E8 BF 8E E7 99 BB E9 99 86 EF BC 81 )
+2009-10-09 09:36:22.265 [NioProcessor-1] INFO  o.a.m.filter.logging.LoggingFilter - SENT: 1:(E6 88 91 E8 83 A1 E6 B1 89 E4 B8 89 E6 9D A5 E4 BA 86 )
+2009-10-09 09:36:23.437 [NioProcessor-1] INFO  o.a.m.filter.logging.LoggingFilter - SENT: 2:(E8 BD BB E8 BD BB E7 9A 84 E4 BF BA E8 B5 B0 E4 BA 86 EF BC 8C E4 B8 8D E7 95 99 E4 B8 8B E4 B8 80 E5 88 86 E9 92 B1 )
+2009-10-09 09:36:23.437 [NioProcessor-1] INFO  o.a.m.filter.logging.LoggingFilter - RECEIVED: 2:(E6 AC A2 E8 BF 8E E5 86 8D E6 9D A5 EF BC 81 )
+2009-10-09 09:36:28.437 [NioProcessor-1] INFO  o.a.m.filter.logging.LoggingFilter - CLOSED
+2009-10-09 09:37:57.578 [NioProcessor-1] INFO  o.a.m.filter.logging.LoggingFilter - CREATED
+2009-10-09 09:37:57.609 [NioProcessor-1] INFO  o.a.m.filter.logging.LoggingFilter - OPENED
+2009-10-09 09:37:57.640 [NioProcessor-1] INFO  o.a.m.filter.logging.LoggingFilter - RECEIVED: 1:(E6 AC A2 E8 BF 8E E7 99 BB E9 99 86 EF BC 81 )
+2009-10-09 09:37:57.640 [NioProcessor-1] INFO  o.a.m.filter.logging.LoggingFilter - SENT: 1:(E6 88 91 E8 83 A1 E6 B1 89 E4 B8 89 E6 9D A5 E4 BA 86 )
+2009-10-09 09:37:58.015 [NioProcessor-1] INFO  o.a.m.filter.logging.LoggingFilter - SENT: 2:(E8 BD BB E8 BD BB E7 9A 84 E4 BF BA E8 B5 B0 E4 BA 86 EF BC 8C E4 B8 8D E7 95 99 E4 B8 8B E4 B8 80 E5 88 86 E9 92 B1 )
+2009-10-09 09:37:58.015 [NioProcessor-1] INFO  o.a.m.filter.logging.LoggingFilter - RECEIVED: 2:(E6 AC A2 E8 BF 8E E5 86 8D E6 9D A5 EF BC 81 )
+2009-10-09 09:38:03.015 [NioProcessor-1] INFO  o.a.m.filter.logging.LoggingFilter - CLOSED
+2009-10-09 09:38:09.734 [NioProcessor-3] INFO  o.a.m.filter.logging.LoggingFilter - CREATED
+2009-10-09 09:38:09.750 [NioProcessor-3] INFO  o.a.m.filter.logging.LoggingFilter - OPENED
+2009-10-09 09:38:09.750 [NioProcessor-3] INFO  o.a.m.filter.logging.LoggingFilter - SENT: 1:(E6 88 91 E8 83 A1 E6 B1 89 E4 B8 89 E6 9D A5 E4 BA 86 )
+2009-10-09 09:38:09.765 [NioProcessor-3] INFO  o.a.m.filter.logging.LoggingFilter - RECEIVED: 1:(E6 AC A2 E8 BF 8E E7 99 BB E9 99 86 EF BC 81 )
+2009-10-09 09:38:13.203 [NioProcessor-3] INFO  o.a.m.filter.logging.LoggingFilter - SENT: 2:(E8 BD BB E8 BD BB E7 9A 84 E4 BF BA E8 B5 B0 E4 BA 86 EF BC 8C E4 B8 8D E7 95 99 E4 B8 8B E4 B8 80 E5 88 86 E9 92 B1 )
+2009-10-09 09:38:13.203 [NioProcessor-3] INFO  o.a.m.filter.logging.LoggingFilter - RECEIVED: 2:(E6 AC A2 E8 BF 8E E5 86 8D E6 9D A5 EF BC 81 )
+2009-10-09 09:38:18.203 [NioProcessor-3] INFO  o.a.m.filter.logging.LoggingFilter - CLOSED
+2009-10-09 09:46:30.000 [NioProcessor-1] INFO  o.a.m.filter.logging.LoggingFilter - CREATED
+2009-10-09 09:46:30.031 [NioProcessor-1] INFO  o.a.m.filter.logging.LoggingFilter - OPENED
+2009-10-09 09:46:30.046 [NioProcessor-1] INFO  o.a.m.filter.logging.LoggingFilter - SENT: 1:(E6 88 91 E8 83 A1 E6 B1 89 E4 B8 89 E6 9D A5 E4 BA 86 )
+2009-10-09 09:46:30.062 [NioProcessor-1] INFO  o.a.m.filter.logging.LoggingFilter - RECEIVED: 1:(E6 AC A2 E8 BF 8E E7 99 BB E9 99 86 EF BC 81 )
+2009-10-09 09:48:52.234 [NioProcessor-1] INFO  o.a.m.filter.logging.LoggingFilter - CREATED
+2009-10-09 09:48:52.281 [NioProcessor-1] INFO  o.a.m.filter.logging.LoggingFilter - OPENED
+2009-10-09 09:48:52.296 [NioProcessor-1] INFO  o.a.m.filter.logging.LoggingFilter - RECEIVED: 1:(E6 AC A2 E8 BF 8E E7 99 BB E9 99 86 EF BC 81 )
+2009-10-09 09:48:52.296 [NioProcessor-1] INFO  o.a.m.filter.logging.LoggingFilter - SENT: 1:(E6 88 91 E8 83 A1 E6 B1 89 E4 B8 89 E6 9D A5 E4 BA 86 )
+2009-10-09 09:48:53.953 [NioProcessor-1] INFO  o.a.m.filter.logging.LoggingFilter - RECEIVED: 2:(E6 AC A2 E8 BF 8E E5 86 8D E6 9D A5 EF BC 81 )
+2009-10-09 09:48:53.953 [NioProcessor-1] INFO  o.a.m.filter.logging.LoggingFilter - SENT: 2:(E8 BD BB E8 BD BB E7 9A 84 E4 BF BA E8 B5 B0 E4 BA 86 EF BC 8C E4 B8 8D E7 95 99 E4 B8 8B E4 B8 80 E5 88 86 E9 92 B1 )
+2009-10-09 09:48:58.968 [NioProcessor-1] INFO  o.a.m.filter.logging.LoggingFilter - CLOSED
+2009-10-09 11:02:34.484 [NioProcessor-1] INFO  o.a.m.filter.logging.LoggingFilter - CREATED
+2009-10-09 11:02:34.500 [NioProcessor-1] INFO  o.a.m.filter.logging.LoggingFilter - OPENED
+2009-10-09 11:02:34.515 [NioProcessor-1] INFO  o.a.m.filter.logging.LoggingFilter - SENT: 1:(E6 88 91 E8 83 A1 E6 B1 89 E4 B8 89 E6 9D A5 E4 BA 86 )
+2009-10-09 11:02:34.546 [NioProcessor-1] INFO  o.a.m.filter.logging.LoggingFilter - RECEIVED: 1:(E6 AC A2 E8 BF 8E E7 99 BB E9 99 86 EF BC 81 )
+2009-10-09 11:02:36.281 [NioProcessor-1] INFO  o.a.m.filter.logging.LoggingFilter - CREATED
+2009-10-09 11:02:36.312 [NioProcessor-1] INFO  o.a.m.filter.logging.LoggingFilter - OPENED
+2009-10-09 11:02:36.359 [NioProcessor-1] INFO  o.a.m.filter.logging.LoggingFilter - RECEIVED: 1:(E6 AC A2 E8 BF 8E E7 99 BB E9 99 86 EF BC 81 )
+2009-10-09 11:02:36.375 [NioProcessor-1] INFO  o.a.m.filter.logging.LoggingFilter - SENT: 1:(E6 88 91 E8 83 A1 E6 B1 89 E4 B8 89 E6 9D A5 E4 BA 86 )
+2009-10-09 11:02:38.859 [NioProcessor-1] INFO  o.a.m.filter.logging.LoggingFilter - SENT: 2:(31 32 33 )
+2009-10-09 11:02:38.859 [NioProcessor-1] INFO  o.a.m.filter.logging.LoggingFilter - RECEIVED: 2:(31 32 33 )
+2009-10-09 11:02:38.875 [NioProcessor-1] INFO  o.a.m.filter.logging.LoggingFilter - RECEIVED: 2:(31 32 33 )
+2009-10-09 11:02:44.265 [NioProcessor-1] INFO  o.a.m.filter.logging.LoggingFilter - SENT: 3:(34 34 )
+2009-10-09 11:02:44.265 [NioProcessor-1] INFO  o.a.m.filter.logging.LoggingFilter - RECEIVED: 3:(34 34 )
+2009-10-09 11:02:44.281 [NioProcessor-1] INFO  o.a.m.filter.logging.LoggingFilter - RECEIVED: 3:(34 34 )
+2009-10-09 11:02:46.859 [NioProcessor-1] INFO  o.a.m.filter.logging.LoggingFilter - SENT: 5:(E8 BD BB E8 BD BB E7 9A 84 E4 BF BA E8 B5 B0 E4 BA 86 EF BC 8C E4 B8 8D E7 95 99 E4 B8 8B E4 B8 80 E5 88 86 E9 92 B1 )
+2009-10-09 11:02:46.859 [NioProcessor-1] INFO  o.a.m.filter.logging.LoggingFilter - RECEIVED: 4:(E6 AC A2 E8 BF 8E E5 86 8D E6 9D A5 EF BC 81 )
+2009-10-09 11:02:49.000 [NioProcessor-1] INFO  o.a.m.filter.logging.LoggingFilter - RECEIVED: 4:(E6 AC A2 E8 BF 8E E5 86 8D E6 9D A5 EF BC 81 )
+2009-10-09 11:02:49.000 [NioProcessor-1] INFO  o.a.m.filter.logging.LoggingFilter - SENT: 5:(E8 BD BB E8 BD BB E7 9A 84 E4 BF BA E8 B5 B0 E4 BA 86 EF BC 8C E4 B8 8D E7 95 99 E4 B8 8B E4 B8 80 E5 88 86 E9 92 B1 )
+2009-10-09 11:02:51.859 [NioProcessor-1] INFO  o.a.m.filter.logging.LoggingFilter - CLOSED
+2009-10-09 11:02:51.859 [NioProcessor-1] INFO  o.a.m.filter.logging.LoggingFilter - RECEIVED: 5:(54 68 65 20 75 73 65 72 20 2F 31 32 37 2E 30 2E 30 2E 31 3A 33 36 33 39 20 68 61 73 20 6C 65 66 74 20 74 68 65 20 63 68 61 74 20 73 65 73 73 69 6F 6E 2E )
+2009-10-09 11:02:54.000 [NioProcessor-1] INFO  o.a.m.filter.logging.LoggingFilter - CLOSED
+2009-10-09 13:56:06.109 [NioProcessor-1] INFO  o.a.m.filter.logging.LoggingFilter - CREATED
+2009-10-09 13:56:06.125 [NioProcessor-1] INFO  o.a.m.filter.logging.LoggingFilter - OPENED
+2009-10-09 13:56:06.171 [NioProcessor-1] INFO  o.a.m.filter.logging.LoggingFilter - SENT: 0:(AC ED 00 05 73 72 00 24 6E 65 74 2E 6C 69 75 78 75 61 6E 2E 4F 53 4D 43 2E 6D 65 73 73 61 67 65 2E 55 73 65 72 41 6E 64 50 61 73 73 BF 31 87 62 7E A8 75 FC 02 00 02 4C 00 08 70 61 73 73 77 6F 72 64 74 00 12 4C 6A 61 76 61 2F 6C 61 6E 67 2F 53 74 72 69 6E 67 3B 4C 00 08 75 73 65 72 6E 61 6D 65 71 00 7E 00 01 78 70 74 00 05 31 32 33 34 35 74 00 05 6D 6F 73 65 73 )
+2009-10-09 13:56:06.421 [NioProcessor-1] INFO  o.a.m.filter.logging.LoggingFilter - RECEIVED: 1:(E6 AC A2 E8 BF 8E E7 99 BB E9 99 86 EF BC 81 )
+2009-10-09 14:01:14.906 [NioProcessor-1] WARN  o.a.m.filter.logging.LoggingFilter - EXCEPTION :
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) [na:1.6.0_13]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:25) [na:1.6.0_13]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:233) [na:1.6.0_13]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:206) [na:1.6.0_13]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:236) [na:1.6.0_13]
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:179) [mina-core-2.0.0-M6.jar:na]
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:41) [mina-core-2.0.0-M6.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.read(AbstractPollingIoProcessor.java:585) [mina-core-2.0.0-M6.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:563) [mina-core-2.0.0-M6.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:552) [mina-core-2.0.0-M6.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.access$400(AbstractPollingIoProcessor.java:56) [mina-core-2.0.0-M6.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:891) [mina-core-2.0.0-M6.jar:na]
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64) [mina-core-2.0.0-M6.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886) [na:1.6.0_13]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908) [na:1.6.0_13]
+	at java.lang.Thread.run(Thread.java:619) [na:1.6.0_13]
+2009-10-09 14:01:14.937 [NioProcessor-1] INFO  o.a.m.filter.logging.LoggingFilter - CLOSED

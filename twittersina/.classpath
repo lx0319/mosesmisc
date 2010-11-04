@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="com.google.appengine.eclipse.core.GAE_CONTAINER"/>
+	<classpathentry kind="lib" path="D:/Workspaces/twittersina/war/WEB-INF/lib/commons-beanutils-1.7.0.jar"/>
+	<classpathentry kind="lib" path="D:/Workspaces/twittersina/war/WEB-INF/lib/commons-collections-3.1.jar"/>
+	<classpathentry kind="lib" path="D:/Workspaces/twittersina/war/WEB-INF/lib/commons-lang-2.3.jar"/>
+	<classpathentry kind="lib" path="D:/Workspaces/twittersina/war/WEB-INF/lib/commons-logging-1.1.jar"/>
+	<classpathentry kind="lib" path="D:/Workspaces/twittersina/war/WEB-INF/lib/ezmorph-1.0.4.jar"/>
+	<classpathentry kind="lib" path="D:/Workspaces/twittersina/war/WEB-INF/lib/json-lib-2.2.1.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/log4j-1.2.13.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/commons-codec-1.3.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/httpclient-4.0.1.jar" sourcepath="E:/Moses/java/Libs/httpcomponents-client-4.0.1/httpclient/src/main/java"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/httpcore-4.0.1.jar" sourcepath="E:/Moses/java/Libs/httpcomponents-core-4.0.1-src/httpcomponents-core-4.0.1/httpcore/src/main/java"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="war/WEB-INF/classes"/>
+</classpath>

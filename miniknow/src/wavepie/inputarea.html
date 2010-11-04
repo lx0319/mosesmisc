@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>WavePie</title>
+<link href="css/main.css" rel="stylesheet" type="text/css" />
+<script>
+	function setPnode(key){
+		document.getElementById("parent_node").value=key;
+	}
+	function subm(){
+		alert(document.getElementById("parent_node").value);
+		document.form1.submit();
+	}
+</script>
+</head>
+
+<body>
+<div>
+{% for node in nodes %}
+	<div class="showContent">
+	  <span class="info">{% if node.author %}<b>{{ node.author.nickname }}</b>{% else %} Anonymous {% endif %} 于{{ node.date|date:"Ymd H:s" }}写道：</span>
+	  <span class="oper"><a href="#" onclick="javascript:setPnode('{{ node.key }}')">回复该线索:</a></span>
+	  <div class="Content">{{ node.content|escape }}</div>
+	  <div class="info">Father:{{ node.parent_node.key|escape }}</div>
+	  <div class="info">Childs:{% for cnode in node.child_nodes %}{{ cnode.content }};{% endfor %}</div>
+	</div>
+{% endfor %}	
+</div>
+<div>
+<form id="form1" name="form1" method="post" action="/fabu">
+  <input type="hidden" name="parent_node" id="parent_node" value=""/>
+  
+	<div id="div_input">
+	  请输入您要发表的内容：
+      <br />
+      <label>
+        <textarea name="content" id="content" cols="60" rows="8"></textarea>
+      </label>
+      <br/>
+      
+	<div><input type="submit" value="写一句" onclick="javascript:subm()"></div>
+	</div>
+	<br />
+	<br />
+</form>
+</div>
+</body>
+</html>
